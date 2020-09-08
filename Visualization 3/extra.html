@@ -1,0 +1,31 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="extra.style.css">
+    </head>
+
+<body>
+    
+    <meta charset="utf-8">
+    <h5>Geographical didtribution of disbursement for top 5 reason</h5>
+    
+    <!-- Load d3.js and the geo projection plugin -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="extra.script.js"></script>
+    
+    <!-- Button -->
+    <div>
+      <input type="checkbox" class="checkbox" value="A" checked><label>Sectors not specified</label>
+      <input type="checkbox" class="checkbox" value="B" checked><label>Social services</label>
+      <input type="checkbox" class="checkbox" value="C" checked><label>Strengthening civil society</label>
+      <input type="checkbox" class="checkbox" value="D" checked><label>Higher education</label>
+      <input type="checkbox" class="checkbox" value="E" checked><label>Multisector aid</label>
+    </div>
+    
+    <!-- Create an element where the map will take place -->
+    <svg id="my_dataviz" width="1200" height="500"></svg>
+    <script src="extra.script.js"></script>
+    
+
+</body>
+</html>
